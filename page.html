@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mounir Hayani</title>
+  <style>
+    :root {
+      --accent: #0b5fa5;
+      --accent-soft: #e4f0fb;
+      --bg: #f7f9fc;
+      --text: #222;
+      --muted: #555;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Segoe UI", Roboto, system-ui, -apple-system, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    header {
+      background: linear-gradient(135deg, #063566, #0b5fa5);
+      color: white;
+      padding: 48px 20px 32px 20px;
+    }
+
+    .header-inner {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    header h1 {
+      margin: 0 0 8px 0;
+      font-size: 2.4rem;
+      letter-spacing: 0.03em;
+    }
+
+    header h2 {
+      margin: 0;
+      font-weight: 300;
+      font-size: 1.1rem;
+      color: #dbe9ff;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px 20px 40px 20px;
+    }
+
+    section {
+      margin-bottom: 32px;
+      background: white;
+      padding: 22px 24px;
+      border-radius: 14px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    }
+
+    section h2 {
+      margin-top: 0;
+      margin-bottom: 12px;
+      font-size: 1.4rem;
+      color: var(--accent);
+      border-bottom: 1px solid #dde6f2;
+      padding-bottom: 6px;
+    }
+
+    p {
+      margin-top: 6px;
+      margin-bottom: 6px;
+      color: var(--muted);
+    }
+
+    .positions p {
+      margin: 4px 0;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      margin: 6px 0 6px 20px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 4px;
+      color: var(--muted);
+    }
+
+    .pub-title {
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .pub-journal {
+      font-style: italic;
+    }
+
+    .year-label {
+      font-weight: 600;
+      margin-top: 10px;
+      margin-bottom: 4px;
+      color: var(--text);
+    }
+
+    .teaching-block {
+      margin-bottom: 10px;
+    }
+
+    .teaching-block strong {
+      color: var(--text);
+    }
+
+    .tag {
+      display: inline-block;
+      font-size: 0.8rem;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      margin-left: 4px;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.85rem;
+      color: #888;
+      padding: 16px 10px 26px 10px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 32px 16px 24px 16px;
+      }
+      .container {
+        padding: 18px 16px 32px 16px;
+      }
+      section {
+        padding: 18px 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <h1>Mounir Hayani</h1>
+      <h2>Postdoctoral Researcher in Analytic Number Theory</h2>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- Positions & contact -->
+    <section class="positions">
+      <h2>Positions & Contact</h2>
+      <p><strong>Current position:</strong> Teaching and research fellow (ATER), University of Bordeaux.</p>
+      <p><strong>Future position:</strong> Postdoctoral researcher, Max Planck Institute for Mathematics (MPIM), Bonn.</p>
+      <p><strong>Email:</strong> mounir.hayani[at]math[dot]u-bordeaux[dot]fr</p>
+    </section>
+
+    <!-- About me -->
+    <section id="about">
+      <h2>About me</h2>
+        
+        <p>
+          I am a postdoctoral researcher in analytic number theory at the University of Bordeaux.
+          I completed my <a href="https://theses.hal.science/tel-05148094" target="_blank">PhD</a> in 2025 
+          under the supervision of Florent Jouve and Daniel Fiorilli.
+          My thesis, entitled 
+          <em>Probabilistic distribution of prime numbers and ideals: Hooley's conjecture and Chebyshev's bias</em>, 
+          studies how zeros of L-functions influence oscillations in the prime number theorem in arithmetic 
+          progressions as well as in the Chebotarev density theorem.
+        </p>
+          
+        <p>
+          My work combines tools from analytic number theory, probability, and Galois theory to understand 
+          biases in the distribution of primes and prime ideals.
+        </p>
+          
+        
+        
+      
+    </section>
+
+    <!-- Research interests -->
+    <section id="research-interests">
+      <h2>Research interests</h2>
+      <ul>
+        <li>Chebyshev’s bias and prime / prime ideal races in number fields</li>
+        <li>Oscillations in the Chebotarev density theorem and Galois group structure</li>
+        <li>Moments of primes in arithmetic progressions</li>
+        <li>Analytic and probabilistic aspects of Dirichlet and Artin L-functions</li>
+      </ul>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications">
+      <h2>Publications and preprints</h2>
+
+      <div class="year-label">Published papers</div>
+      <ul>
+        <li>
+          <span class="pub-title">Disproving a weaker form of Hooley's conjecture.</span><br />
+          <span class="pub-journal">Bulletin des Sciences Mathématiques</span>, Vol. 199 (2025), 25 pages.
+          Preprint:
+          <a href="https://arxiv.org/abs/2407.01045" target="_blank" rel="noopener noreferrer">arXiv:2407.01045</a>.
+        </li>
+        <li>
+          <span class="pub-title">On the influence of the Galois group structure on the Chebyshev's bias in number fields.</span><br />
+          <span class="pub-journal">Bulletin de la Société Mathématique de France</span>,
+          Vol. 153, No. 3 (2025), pp. 793–829.
+          Preprint:
+          <a href="https://arxiv.org/abs/2404.06804" target="_blank" rel="noopener noreferrer">arXiv:2404.06804</a>.
+        </li>
+      </ul>
+
+      <div class="year-label">Preprints</div>
+      <ul>
+        <li>
+          <span class="pub-title">Prime ideal races with several competitors.</span><br />
+          With A. Bailleul, submitted, 47 pages.
+          Preprint:
+          <a href="https://arxiv.org/abs/2508.04087" target="_blank" rel="noopener noreferrer">arXiv:2508.04087</a>.
+        </li>
+      </ul>
+
+      <div class="year-label">Work in progress</div>
+      <ul>
+        <li>
+          <span class="pub-title">Skewes numbers in prime number races.</span><br />
+          With A. Bailleul and T. Untrau.
+        </li>
+      </ul>
+    </section>
+
+    <!-- Teaching -->
+    <section id="teaching">
+      <h2>Teaching</h2>
+
+      <div class="teaching-block">
+        <div class="year-label">2025–2026 &nbsp;<span class="tag">University of Bordeaux</span></div>
+        <ul>
+          <li>
+            <strong>Mathematical Tools</strong> – exercise sessions (1st-year undergraduate);
+            basic real analysis and foundations of calculus.
+          </li>
+          <li>
+            <strong>Advanced Mathematics</strong> – exercise sessions (1st-year undergraduate);
+            elementary number theory and analytic properties of real numbers.
+          </li>
+        </ul>
+      </div>
+
+      <div class="teaching-block">
+        <div class="year-label">2024–2025 &nbsp;<span class="tag">University of Bordeaux</span></div>
+        <ul>
+          <li>
+            <strong>Algebraic Structures</strong> – exercise sessions (2nd-year undergraduate);
+            groups, rings, and fields.
+          </li>
+          <li>
+            <strong>Calculus in Several Variables</strong> – exercise sessions (2nd-year undergraduate);
+            normed vector spaces and differentiable functions.
+          </li>
+          <li>
+            <strong>Mathematics for Computer Science</strong> – exercise sessions (1st-year undergraduate);
+            logic, sets, and basic algorithmics.
+          </li>
+          <li>
+            <strong>Advanced Mathematics</strong> – lectures and exercise sessions (1st-year undergraduate);
+            elementary number theory and analytic properties of real numbers.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Invited talks -->
+    <section id="talks">
+      <h2>Invited talks</h2>
+      <ul>
+        <li>
+          33rd Journées Arithmétiques – <em>Disproving a weaker form of Hooley's conjecture</em>,
+          Luxembourg, July 2025.
+        </li>
+        <li>
+          Journées arithmétiques de Meknès – <em>Extreme Chebyshev's bias in number fields</em>,
+          Meknès, April 2025.
+        </li>
+        <li>
+          Séminaire ADA, Université du Littoral Côte d'Opale – <em>Characterization of extreme cases of Chebyshev's bias in number fields</em>,
+          Calais, April 2025.
+        </li>
+        <li>
+          Comparative Number Theory Symposium, UBC – <em>The influence of the Galois group on Chebyshev's bias</em>,
+          Vancouver, June 2024.
+        </li>
+        <li>
+          Analytic and Elementary Number Theory Meetings, IHP – <em>Unconditional Chebyshev biases in number fields</em>,
+          Paris, June 2024.
+        </li>
+        <li>
+          Lambda Seminar, Université de Bordeaux – <em>Prime number races</em>,
+          Bordeaux, March 2024.
+        </li>
+      </ul>
+    </section>
+
+
+  </main>
+
+  <script>
+    // Set current year in the footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
